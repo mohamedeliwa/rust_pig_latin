@@ -20,7 +20,10 @@ fn pig_latin(word: &str) -> String {
 }
 
 fn main() {
-    let word = pig_latin("word");
-
-    println!("{word}");
+    println!(
+        "{} {} {}",
+        pig_latin("first"),
+        pig_latin("apple"),
+        pig_latin("here")
+    );
 }
